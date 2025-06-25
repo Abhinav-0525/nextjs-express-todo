@@ -10,12 +10,8 @@ build/
 
 # Ignore in nested folders too
 frontend/node_modules/
-frontend/.env*
+frontend/.env
 express-app/node_modules/
 express-app/.env
 
-# OS/IDE stuff
-*.swp
-*.swo
-.vscode/
-.idea/
+
