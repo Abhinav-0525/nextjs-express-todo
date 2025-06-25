@@ -1,0 +1,21 @@
+# Global ignores for both frontend and backend
+node_modules/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+dist/
+build/
+
+# Ignore in nested folders too
+frontend/node_modules/
+frontend/.env*
+express-app/node_modules/
+express-app/.env
+
+# OS/IDE stuff
+*.swp
+*.swo
+.vscode/
+.idea/
